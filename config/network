@@ -1,0 +1,11 @@
+
+config general
+	option ipv6 '0'
+
+config ethernet
+	option proto 'dhcp'
+	option enabled '1'
+
+config wifi
+	option enabled '0'
+
